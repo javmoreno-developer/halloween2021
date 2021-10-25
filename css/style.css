@@ -30,7 +30,7 @@
   width: 100vw;
   background-size: cover;
   background-image: url("../img/home1-img.png");
-  background-position-x: 50%;
+  background-position-x: 72%;
   background-position-y: 50%;
 }
 #header #texto {
@@ -376,6 +376,11 @@ footer #contenedor2 #foto {
   background-image: url("../img/footer1-img.png");
 }
 
+@media (max-width: 576px) {
+  #discount {
+    display: none;
+  }
+}
 @media (min-width: 576px) {
   #header #texto {
     margin-top: 5vh;
@@ -533,9 +538,13 @@ footer #contenedor2 #foto {
   }
   #container #header #foto {
     width: 50vw;
+    background-position-y: 70%;
   }
   #container #header #texto {
     width: 40vw;
+  }
+  #container footer {
+    height: 130vh;
   }
   #container footer #contenedor2 #foto {
     width: 20%;
@@ -611,6 +620,21 @@ footer #contenedor2 #foto {
   }
   #container #category #container .ghost #fotoGhost {
     width: 25vw;
+  }
+  #container #discount {
+    display: flex;
+    flex-direction: row;
+  }
+  #container #discount #foto {
+    width: 50%;
+  }
+  #container #discount #textito {
+    display: flex;
+    flex-direction: column;
+    gap: 10vh;
+  }
+  #container #discount #textito .boton {
+    width: 10vw;
   }
 }
 

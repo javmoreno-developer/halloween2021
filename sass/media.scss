@@ -1,6 +1,10 @@
 // X-Small devices (portrait phones, less than 576px)
 // No media query for `xs` since this is the default in Bootstrap
-
+@media (max-width: 576px) {
+	#discount {
+		display: none;
+	}
+}
 // Small devices (landscape phones, 576px and up)
 @media (min-width: 576px) {
 	#header #texto {
@@ -164,12 +168,14 @@
 		#header {		
 			#foto {
 				width: 50vw;
+				background-position-y: 70%;
 			}
 			#texto {
 				width: 40vw;
 			}
 		}
 		footer {
+			height: 130vh;
 			#contenedor2 {
 				#foto {
 					width: 20%;
@@ -255,6 +261,22 @@
 		#category #container .ghost #fotoGhost {
 			width: 25vw;
 
+		}
+
+		#discount {
+			display: flex;
+			flex-direction: row;
+			#foto {
+				width: 50%;
+			}
+			#textito {
+				display: flex;
+				flex-direction: column;
+				gap:10vh;
+				.boton {
+					width: 10vw;
+				}
+			}
 		}
 		//fin de container
 	}

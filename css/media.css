@@ -1,3 +1,8 @@
+@media (max-width: 576px) {
+  #discount {
+    display: none;
+  }
+}
 @media (min-width: 576px) {
   #header #texto {
     margin-top: 5vh;
@@ -155,9 +160,13 @@
   }
   #container #header #foto {
     width: 50vw;
+    background-position-y: 70%;
   }
   #container #header #texto {
     width: 40vw;
+  }
+  #container footer {
+    height: 130vh;
   }
   #container footer #contenedor2 #foto {
     width: 20%;
@@ -233,6 +242,21 @@
   }
   #container #category #container .ghost #fotoGhost {
     width: 25vw;
+  }
+  #container #discount {
+    display: flex;
+    flex-direction: row;
+  }
+  #container #discount #foto {
+    width: 50%;
+  }
+  #container #discount #textito {
+    display: flex;
+    flex-direction: column;
+    gap: 10vh;
+  }
+  #container #discount #textito .boton {
+    width: 10vw;
   }
 }
 

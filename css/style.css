@@ -1,0 +1,617 @@
+@import url("https://fonts.googleapis.com/css2?family=Creepster&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+:root {
+  --container-color: linear-gradient(136deg, hsl(104, 28%, 35%) 0%, hsl(58, 28%, 35%) 100%);
+  --gris: #b0b3b3;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+}
+
+#container {
+  background-image: linear-gradient(to right, #5a8249, #648147, #6c8046, #747e46, #7b7d47);
+  height: 1360vh;
+  width: 100vw;
+}
+
+#header {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  flex-direction: column;
+}
+#header #foto {
+  height: 70vh;
+  width: 100vw;
+  background-size: cover;
+  background-image: url("../img/home1-img.png");
+  background-position-x: 50%;
+  background-position-y: 50%;
+}
+#header #texto {
+  color: white;
+  text-align: center;
+  font-size: 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5vh;
+}
+#header #texto h1 {
+  font-size: 32px;
+}
+#header #texto p {
+  color: #b0b3b3;
+  font-size: 16px;
+}
+#header #texto h1 {
+  font-family: "Creepster", cursive;
+}
+#header #texto .boton {
+  background: #F4511E;
+  color: white;
+  border: 0px;
+  width: 25vw;
+  height: 5vh;
+}
+
+#category {
+  height: 190vh;
+  width: 100vw;
+  margin-top: 10vh;
+}
+#category h1 {
+  color: white;
+  text-align: center;
+  font-size: 25px;
+}
+#category #container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+#category #container .ghost {
+  height: 60vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  color: white;
+  justify-content: center;
+}
+#category #container .ghost h3 {
+  font-size: 25px;
+  text-align: center;
+}
+#category #container .ghost p {
+  text-align: center;
+  color: #b0b3b3;
+}
+#category #container .ghost .foto2 {
+  background-image: url("../img/category1-img.png");
+  height: 40vh;
+  width: 100vw;
+  background-size: cover;
+  background-position-y: 30%;
+}
+#category #container #pumpkin .foto2 {
+  background-image: url("../img/category2-img.png");
+}
+#category #container #witch .foto2 {
+  background-image: url("../img/category3-img.png");
+}
+
+#about {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5vh;
+}
+#about #texto {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 30vh;
+  gap: 5vh;
+}
+#about #texto h1 {
+  color: white;
+  text-align: center;
+  font-size: 25px;
+}
+#about #texto p {
+  color: #b0b3b3;
+  text-align: center;
+}
+#about #texto .boton {
+  background: #F4511E;
+  color: white;
+  border: 0px;
+  width: 25vw;
+  height: 5vh;
+}
+#about .foto3 {
+  background-image: url("../img/about-img.png");
+  height: 80vh;
+  width: 100vw;
+  background-size: cover;
+  background-position-y: 95%;
+}
+
+#trick {
+  margin-top: 10vh;
+  height: 400vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+#trick h1 {
+  color: white;
+  text-align: center;
+  font-size: 25px;
+  margin-bottom: 5vh;
+}
+#trick #containerCards {
+  width: 100%;
+  height: 400vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+#trick #containerCards .card {
+  height: 50vh;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  background: var(--container-color);
+  border-radius: 20%;
+}
+#trick #containerCards .card #icono {
+  background-image: url("../img/trick-treat1-img.png");
+  background-size: cover;
+  height: 25vh;
+  width: 100%;
+  background-position-y: 50%;
+}
+#trick #containerCards .card h1 {
+  color: white;
+}
+#trick #containerCards .card hr {
+  width: 20vw;
+}
+#trick #containerCards .card p {
+  color: white;
+}
+#trick #containerCards #card2 #icono2 {
+  background-image: url("../img/trick-treat2-img.png");
+  background-size: cover;
+  height: 25vh;
+  width: 100%;
+  background-position-y: 50%;
+}
+#trick #containerCards #card3 #icono3 {
+  background-image: url("../img/trick-treat3-img.png");
+  background-size: cover;
+  height: 25vh;
+  width: 100%;
+  background-position-y: 20%;
+}
+#trick #containerCards #card4 #icono4 {
+  background-image: url("../img/trick-treat4-img.png");
+  background-size: cover;
+  height: 25vh;
+  background-position-y: 50%;
+  width: 100%;
+}
+#trick #containerCards #card5 #icono5 {
+  background-image: url("../img/trick-treat5-img.png");
+  background-size: cover;
+  height: 25vh;
+  background-position-y: 50%;
+  width: 100%;
+}
+#trick #containerCards #card6 #icono6 {
+  background-image: url("../img/trick-treat6-img.png");
+  background-size: cover;
+  height: 25vh;
+  background-position-y: 50%;
+  width: 100%;
+}
+
+#discount {
+  background: var(--container-color);
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 100vw;
+  align-items: center;
+  justify-content: space-around;
+}
+#discount #foto {
+  background-image: url("../img/discount-img.png");
+  background-size: cover;
+  height: 70%;
+  width: 100%;
+  background-position-x: 30%;
+}
+#discount .boton {
+  background: #F4511E;
+  color: white;
+  border: 0px;
+  width: 25vw;
+  height: 5vh;
+}
+#discount h1 {
+  color: var(--gris);
+}
+
+#arrivals {
+  height: 200vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+#arrivals h1 {
+  color: white;
+  font-size: 25px;
+}
+#arrivals #contenedor {
+  height: 200vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+}
+#arrivals #contenedor .card {
+  height: 50vh;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  background: var(--container-color);
+  border-radius: 20%;
+}
+#arrivals #contenedor .card .icono7 {
+  background-image: url("../img/new1-img.png");
+  background-size: cover;
+  height: 35vh;
+  width: 100%;
+  background-position-y: 50%;
+}
+#arrivals #contenedor .card h1 {
+  color: white;
+}
+#arrivals #contenedor .card hr {
+  width: 20vw;
+}
+#arrivals #contenedor .card p {
+  color: white;
+}
+#arrivals #contenedor #card8 #icono8 {
+  background-image: url("../img/new2-img.png");
+}
+#arrivals #contenedor #card9 #icono9 {
+  background-image: url("../img/new4-img.png");
+}
+
+#news {
+  height: 50vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+#news h1 {
+  color: white;
+  font-size: 25px;
+  text-align: center;
+}
+#news p {
+  color: var(--gris);
+}
+#news form {
+  width: 70vw;
+  display: flex;
+  gap: 5vw;
+  justify-content: center;
+  background: var(--container-color);
+}
+#news form .boton {
+  background: #F4511E;
+  color: white;
+  border: 0px;
+  width: 25vw;
+  height: 5vh;
+}
+#news form input {
+  background: transparent;
+  border: 0px;
+}
+#news form input::placeholder {
+  color: var(--gris);
+}
+
+footer {
+  width: 100%;
+  height: 180vh;
+  display: flex;
+  flex-direction: column;
+}
+footer .primera {
+  height: 30vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+}
+footer .primera h1 {
+  color: white;
+}
+footer .primera p {
+  color: var(--gris);
+  text-align: center;
+}
+footer .primera #iconos i {
+  color: white;
+}
+footer #contenedor2 #foto {
+  height: 70vh;
+  width: 100vw;
+  background-size: cover;
+  background-image: url("../img/footer1-img.png");
+}
+
+@media (min-width: 576px) {
+  #header #texto {
+    margin-top: 5vh;
+  }
+
+  #header #foto {
+    background-position-y: 80%;
+    height: 80vh;
+  }
+
+  #category {
+    height: 80vh;
+  }
+  #category #container {
+    flex-direction: row;
+    width: 100vw;
+  }
+  #category #container .ghost {
+    width: 32.3vw;
+  }
+  #category #container .ghost .foto2 {
+    width: 32.3vw;
+  }
+
+  #about .foto3 {
+    background-position-y: 95%;
+    width: 50vw;
+  }
+
+  #trick {
+    margin-top: 0vh;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: normal;
+    justify-content: normal;
+    height: 150vh;
+  }
+  #trick #titulo {
+    margin-bottom: 0vh;
+    display: flex;
+    width: 100vw;
+    justify-content: center;
+  }
+  #trick #containerCards {
+    display: flex;
+    flex-direction: row;
+    align-items: normal;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2vw;
+    height: 100vh;
+  }
+  #trick #containerCards .card {
+    width: 30%;
+  }
+
+  #arrivals {
+    height: 100vh;
+  }
+  #arrivals #contenedor {
+    display: flex;
+    flex-direction: row;
+    justify-content: normal;
+    align-items: center;
+    gap: 2vw;
+    height: 80vh;
+  }
+
+  #news {
+    height: 30vh;
+  }
+  #news form {
+    width: 50vw;
+  }
+  #news form .boton {
+    width: 15vw;
+  }
+
+  footer {
+    margin-top: 10vh;
+    flex-direction: row;
+    height: 100vh;
+    flex-wrap: wrap;
+  }
+  footer .primera {
+    width: 33.3%;
+  }
+  footer #contenedor2 {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  footer #contenedor2 #foto {
+    width: 50%;
+  }
+
+  #container {
+    height: 710vh;
+  }
+
+  #discount {
+    display: none;
+  }
+
+  * {
+    overflow-x: hidden;
+  }
+
+  #about #texto {
+    height: 35vh;
+  }
+
+  #arrivals #contenedor .card h1 {
+    text-align: center;
+  }
+
+  #category #container #pumpkin .foto2 {
+    width: 30vw;
+  }
+}
+@media (min-width: 768px) {
+  #container #header {
+    flex-direction: row;
+    gap: 2vw;
+  }
+  #container #header #foto {
+    width: 100vw;
+  }
+  #container #header #texto {
+    justify-content: center;
+    align-items: flex-start;
+  }
+  #container #header #texto p {
+    text-align: start;
+  }
+  #container footer #contenedor2 #foto {
+    width: 30%;
+  }
+}
+@media (min-width: 992px) {
+  #container #trick #containerCards .card {
+    height: 70vh;
+  }
+  #container #trick {
+    height: 200vh;
+  }
+  #container #trick #containerCards {
+    height: 150vh;
+  }
+}
+@media (min-width: 1200px) {
+  #container {
+    height: 700vh;
+  }
+  #container #header #foto {
+    width: 50vw;
+  }
+  #container #header #texto {
+    width: 40vw;
+  }
+  #container footer #contenedor2 #foto {
+    width: 20%;
+  }
+  #container #news form {
+    width: 22vw;
+  }
+  #container #news form .boton {
+    width: 5vw;
+  }
+  #container #arrivals #contenedor .card {
+    height: 70vh;
+  }
+  #container #arrivals #contenedor .card .icono7 {
+    height: 55vh;
+  }
+  #container #trick #containerCards #card5 #icono5 {
+    height: 40vh;
+    width: 70%;
+  }
+  #container #trick #containerCards #card3 #icono3 {
+    height: 40vh;
+    width: 70%;
+  }
+  #container #trick #containerCards #card4 #icono4 {
+    height: 40vh;
+    width: 70%;
+  }
+  #container #trick #containerCards #card6 #icono6 {
+    height: 40vh;
+    width: 70%;
+  }
+  #container #trick #containerCards #card2 #icono2 {
+    height: 40vh;
+    width: 70%;
+  }
+  #container #trick #containerCards #card1 #icono1 {
+    height: 40vh;
+    width: 70%;
+  }
+  #container #trick #containerCards .card {
+    height: 60vh;
+  }
+  #container #about {
+    height: 70vh;
+    flex-direction: row;
+    align-items: normal;
+    justify-content: center;
+  }
+  #container #about .foto3 {
+    height: 70vh;
+    width: 30vw;
+    background-position-y: 92%;
+  }
+  #container #about #texto {
+    width: 50vw;
+    justify-content: space-evenly;
+  }
+  #container #about #texto .boton {
+    width: 7vw;
+  }
+  #container #header #texto .boton {
+    width: 10vw;
+  }
+  #container #category #container {
+    height: 70vh;
+  }
+  #container #category #container #pumpkin .foto2 {
+    background-position-y: 55%;
+  }
+  #container #category #container #witch .foto2 {
+    background-position-y: 55%;
+  }
+  #container #category #container .ghost #fotoGhost {
+    width: 25vw;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

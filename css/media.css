@@ -1,0 +1,239 @@
+@media (min-width: 576px) {
+  #header #texto {
+    margin-top: 5vh;
+  }
+
+  #header #foto {
+    background-position-y: 80%;
+    height: 80vh;
+  }
+
+  #category {
+    height: 80vh;
+  }
+  #category #container {
+    flex-direction: row;
+    width: 100vw;
+  }
+  #category #container .ghost {
+    width: 32.3vw;
+  }
+  #category #container .ghost .foto2 {
+    width: 32.3vw;
+  }
+
+  #about .foto3 {
+    background-position-y: 95%;
+    width: 50vw;
+  }
+
+  #trick {
+    margin-top: 0vh;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: normal;
+    justify-content: normal;
+    height: 150vh;
+  }
+  #trick #titulo {
+    margin-bottom: 0vh;
+    display: flex;
+    width: 100vw;
+    justify-content: center;
+  }
+  #trick #containerCards {
+    display: flex;
+    flex-direction: row;
+    align-items: normal;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2vw;
+    height: 100vh;
+  }
+  #trick #containerCards .card {
+    width: 30%;
+  }
+
+  #arrivals {
+    height: 100vh;
+  }
+  #arrivals #contenedor {
+    display: flex;
+    flex-direction: row;
+    justify-content: normal;
+    align-items: center;
+    gap: 2vw;
+    height: 80vh;
+  }
+
+  #news {
+    height: 30vh;
+  }
+  #news form {
+    width: 50vw;
+  }
+  #news form .boton {
+    width: 15vw;
+  }
+
+  footer {
+    margin-top: 10vh;
+    flex-direction: row;
+    height: 100vh;
+    flex-wrap: wrap;
+  }
+  footer .primera {
+    width: 33.3%;
+  }
+  footer #contenedor2 {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  footer #contenedor2 #foto {
+    width: 50%;
+  }
+
+  #container {
+    height: 710vh;
+  }
+
+  #discount {
+    display: none;
+  }
+
+  * {
+    overflow-x: hidden;
+  }
+
+  #about #texto {
+    height: 35vh;
+  }
+
+  #arrivals #contenedor .card h1 {
+    text-align: center;
+  }
+
+  #category #container #pumpkin .foto2 {
+    width: 30vw;
+  }
+}
+@media (min-width: 768px) {
+  #container #header {
+    flex-direction: row;
+    gap: 2vw;
+  }
+  #container #header #foto {
+    width: 100vw;
+  }
+  #container #header #texto {
+    justify-content: center;
+    align-items: flex-start;
+  }
+  #container #header #texto p {
+    text-align: start;
+  }
+  #container footer #contenedor2 #foto {
+    width: 30%;
+  }
+}
+@media (min-width: 992px) {
+  #container #trick #containerCards .card {
+    height: 70vh;
+  }
+  #container #trick {
+    height: 200vh;
+  }
+  #container #trick #containerCards {
+    height: 150vh;
+  }
+}
+@media (min-width: 1200px) {
+  #container {
+    height: 700vh;
+  }
+  #container #header #foto {
+    width: 50vw;
+  }
+  #container #header #texto {
+    width: 40vw;
+  }
+  #container footer #contenedor2 #foto {
+    width: 20%;
+  }
+  #container #news form {
+    width: 22vw;
+  }
+  #container #news form .boton {
+    width: 5vw;
+  }
+  #container #arrivals #contenedor .card {
+    height: 70vh;
+  }
+  #container #arrivals #contenedor .card .icono7 {
+    height: 55vh;
+  }
+  #container #trick #containerCards #card5 #icono5 {
+    height: 40vh;
+    width: 70%;
+  }
+  #container #trick #containerCards #card3 #icono3 {
+    height: 40vh;
+    width: 70%;
+  }
+  #container #trick #containerCards #card4 #icono4 {
+    height: 40vh;
+    width: 70%;
+  }
+  #container #trick #containerCards #card6 #icono6 {
+    height: 40vh;
+    width: 70%;
+  }
+  #container #trick #containerCards #card2 #icono2 {
+    height: 40vh;
+    width: 70%;
+  }
+  #container #trick #containerCards #card1 #icono1 {
+    height: 40vh;
+    width: 70%;
+  }
+  #container #trick #containerCards .card {
+    height: 60vh;
+  }
+  #container #about {
+    height: 70vh;
+    flex-direction: row;
+    align-items: normal;
+    justify-content: center;
+  }
+  #container #about .foto3 {
+    height: 70vh;
+    width: 30vw;
+    background-position-y: 92%;
+  }
+  #container #about #texto {
+    width: 50vw;
+    justify-content: space-evenly;
+  }
+  #container #about #texto .boton {
+    width: 7vw;
+  }
+  #container #header #texto .boton {
+    width: 10vw;
+  }
+  #container #category #container {
+    height: 70vh;
+  }
+  #container #category #container #pumpkin .foto2 {
+    background-position-y: 55%;
+  }
+  #container #category #container #witch .foto2 {
+    background-position-y: 55%;
+  }
+  #container #category #container .ghost #fotoGhost {
+    width: 25vw;
+  }
+}
+
+/*# sourceMappingURL=media.css.map */

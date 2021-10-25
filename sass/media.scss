@@ -1,0 +1,264 @@
+// X-Small devices (portrait phones, less than 576px)
+// No media query for `xs` since this is the default in Bootstrap
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) {
+	#header #texto {
+		margin-top: 5vh;
+	}
+	#header #foto {
+		background-position-y: 80%;
+		height: 80vh;
+	}
+	#category {
+		height: 80vh;
+		#container {
+			flex-direction: row;
+			width: 100vw;
+			.ghost {
+				width: 32.3vw;
+				.foto2 {
+					width: 32.3vw;
+				}
+			}
+		}
+	}
+	#about .foto3 {
+		background-position-y: 95%;
+		width: 50vw;
+	}
+	#trick {
+		margin-top: 0vh;
+		flex-direction: row;
+		flex-wrap: wrap;
+		align-items: normal;
+		justify-content: normal;
+		height: 150vh;
+		#titulo {
+			margin-bottom: 0vh;
+			display: flex;
+			width: 100vw;
+			justify-content: center;
+		}
+		#containerCards {
+			display: flex;
+			flex-direction: row;
+			align-items: normal;
+			justify-content: center;
+			flex-wrap: wrap;
+			gap:2vw;
+			height: 100vh;
+			.card {
+				width: 30%;
+			}
+		}
+		
+	}
+	#arrivals {
+		height: 100vh;
+		#contenedor {
+			display: flex;
+			flex-direction: row;
+			justify-content: normal;
+			align-items:center;
+			gap:2vw;
+			height: 80vh;
+		}
+	}
+	#news {
+		height: 30vh;
+		form {
+			width: 50vw;
+			.boton {
+				width: 15vw;
+			}
+		}
+	}
+	footer {
+		margin-top: 10vh;
+		flex-direction: row;
+		height: 100vh;
+		flex-wrap: wrap;
+		.primera {
+			width: 33.3%;
+		}
+		#contenedor2 {
+			height: 100vh;
+			width: 100%;
+			display: flex;
+			justify-content: center;
+			#foto {
+				width: 50%;
+			}	
+		}
+		
+	}
+	#container {
+		height: 710vh;
+		
+	}
+	#discount {
+		display: none;
+	}
+	* {
+		overflow-x: hidden;
+	}
+	#about #texto {
+		height: 35vh;
+	}
+	#arrivals #contenedor .card h1 {
+		text-align: center;
+	}
+	#category #container #pumpkin .foto2 {
+		width: 30vw;
+	}
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) { 
+	#container {
+		#header {
+			flex-direction: row;
+			gap:2vw;
+			#foto {
+				width: 100vw;
+			}
+			#texto {
+				justify-content: center;
+				align-items: flex-start;
+				p {
+					text-align: start;
+				}
+			}
+		}
+		footer {
+			#contenedor2 {
+				#foto {
+					width: 30%;
+				}
+			}
+		}
+	}
+
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {  
+	#container {
+		#trick #containerCards .card {
+			height: 70vh;
+		}
+		#trick {
+			height: 200vh;
+			#containerCards {
+				height: 150vh;
+			}
+		}
+	}
+}
+
+// X-Large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { 
+	#container {
+		height: 700vh;
+		#header {		
+			#foto {
+				width: 50vw;
+			}
+			#texto {
+				width: 40vw;
+			}
+		}
+		footer {
+			#contenedor2 {
+				#foto {
+					width: 20%;
+				}
+			}
+		}
+		#news  {
+			form {
+				width: 22vw;
+				.boton {
+					width: 5vw;
+				}
+			}
+		}
+		#arrivals {
+			#contenedor {
+				.card {
+					height: 70vh;
+					.icono7 {
+						height: 55vh;
+					}
+				}
+			}
+		}
+
+		#trick #containerCards #card5 #icono5 {
+			height: 40vh;
+			width: 70%;
+		}
+		#trick #containerCards #card3 #icono3 {
+			height: 40vh;
+			width: 70%;
+		}
+		#trick #containerCards #card4 #icono4 {
+			height: 40vh;
+			width: 70%;
+		}
+		#trick #containerCards #card6 #icono6 {
+			height: 40vh;
+			width: 70%;
+		}
+		#trick #containerCards #card2 #icono2 {
+			height: 40vh;
+			width: 70%;
+		}
+		#trick #containerCards #card1 #icono1 {
+			height: 40vh;
+			width: 70%;
+		}
+		#trick #containerCards .card {
+			height: 60vh;
+		}	
+		#about {
+			height: 70vh;
+			flex-direction: row;
+			    align-items: normal;
+			    justify-content: center;
+				.foto3 {
+				height: 70vh;
+				width: 30vw;
+				background-position-y: 92%;
+			}
+			#texto {
+				width: 50vw;
+				justify-content: space-evenly;
+				.boton {
+					width: 7vw;
+				}
+			}
+		}
+		#header #texto .boton {
+			width: 10vw;
+		}
+		#category #container {
+			height: 70vh;
+		}
+		#category #container #pumpkin .foto2 {
+			background-position-y:55%;
+		}
+		#category #container #witch .foto2 {
+			background-position-y:55%;
+		}
+		#category #container .ghost #fotoGhost {
+			width: 25vw;
+
+		}
+		//fin de container
+	}
+}
+
+// XX-Large devices (larger desktops, 1400px and up)
+@media (min-width: 1400px) {  }

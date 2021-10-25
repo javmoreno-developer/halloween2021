@@ -51,7 +51,7 @@
 			justify-content: center;
 			flex-wrap: wrap;
 			gap:2vw;
-			height: 100vh;
+			height: 120vh;
 			.card {
 				width: 30%;
 			}
@@ -116,6 +116,7 @@
 	#category #container #pumpkin .foto2 {
 		width: 30vw;
 	}
+	
 }
 
 // Medium devices (tablets, 768px and up)
@@ -229,6 +230,7 @@
 			height: 60vh;
 		}	
 		#about {
+			margin-top: 10vh;
 			height: 70vh;
 			flex-direction: row;
 			    align-items: normal;
@@ -251,6 +253,10 @@
 		}
 		#category #container {
 			height: 70vh;
+		}
+		#category #container .ghost {
+			height: 70vh;
+			
 		}
 		#category #container #pumpkin .foto2 {
 			background-position-y:55%;

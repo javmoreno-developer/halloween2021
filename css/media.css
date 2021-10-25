@@ -53,7 +53,7 @@
     justify-content: center;
     flex-wrap: wrap;
     gap: 2vw;
-    height: 100vh;
+    height: 120vh;
   }
   #trick #containerCards .card {
     width: 30%;
@@ -211,6 +211,7 @@
     height: 60vh;
   }
   #container #about {
+    margin-top: 10vh;
     height: 70vh;
     flex-direction: row;
     align-items: normal;
@@ -232,6 +233,9 @@
     width: 10vw;
   }
   #container #category #container {
+    height: 70vh;
+  }
+  #container #category #container .ghost {
     height: 70vh;
   }
   #container #category #container #pumpkin .foto2 {

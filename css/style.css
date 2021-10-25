@@ -93,7 +93,7 @@
 }
 #category #container .ghost .foto2 {
   background-image: url("../img/category1-img.png");
-  height: 40vh;
+  height: 60vh;
   width: 100vw;
   background-size: cover;
   background-position-y: 30%;
@@ -180,7 +180,7 @@
 #trick #containerCards .card #icono {
   background-image: url("../img/trick-treat1-img.png");
   background-size: cover;
-  height: 25vh;
+  height: 35vh;
   width: 100%;
   background-position-y: 50%;
 }
@@ -196,35 +196,35 @@
 #trick #containerCards #card2 #icono2 {
   background-image: url("../img/trick-treat2-img.png");
   background-size: cover;
-  height: 25vh;
+  height: 35vh;
   width: 100%;
   background-position-y: 50%;
 }
 #trick #containerCards #card3 #icono3 {
   background-image: url("../img/trick-treat3-img.png");
   background-size: cover;
-  height: 25vh;
+  height: 35vh;
   width: 100%;
   background-position-y: 20%;
 }
 #trick #containerCards #card4 #icono4 {
   background-image: url("../img/trick-treat4-img.png");
   background-size: cover;
-  height: 25vh;
+  height: 35vh;
   background-position-y: 50%;
   width: 100%;
 }
 #trick #containerCards #card5 #icono5 {
   background-image: url("../img/trick-treat5-img.png");
   background-size: cover;
-  height: 25vh;
+  height: 35vh;
   background-position-y: 50%;
   width: 100%;
 }
 #trick #containerCards #card6 #icono6 {
   background-image: url("../img/trick-treat6-img.png");
   background-size: cover;
-  height: 25vh;
+  height: 35vh;
   background-position-y: 50%;
   width: 100%;
 }
@@ -431,7 +431,7 @@ footer #contenedor2 #foto {
     justify-content: center;
     flex-wrap: wrap;
     gap: 2vw;
-    height: 100vh;
+    height: 120vh;
   }
   #trick #containerCards .card {
     width: 30%;
@@ -589,6 +589,7 @@ footer #contenedor2 #foto {
     height: 60vh;
   }
   #container #about {
+    margin-top: 10vh;
     height: 70vh;
     flex-direction: row;
     align-items: normal;
@@ -610,6 +611,9 @@ footer #contenedor2 #foto {
     width: 10vw;
   }
   #container #category #container {
+    height: 70vh;
+  }
+  #container #category #container .ghost {
     height: 70vh;
   }
   #container #category #container #pumpkin .foto2 {

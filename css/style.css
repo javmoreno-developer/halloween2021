@@ -30,7 +30,7 @@
   width: 100vw;
   background-size: cover;
   background-image: url("../img/home1-img.png");
-  background-position-x: 72%;
+  background-position-x: 70%;
   background-position-y: 50%;
 }
 #header #texto {
@@ -387,7 +387,7 @@ footer #contenedor2 #foto {
   }
 
   #header #foto {
-    background-position-y: 80%;
+    background-position-y: 70%;
     height: 80vh;
   }
 
